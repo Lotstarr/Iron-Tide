@@ -1,0 +1,6 @@
+{
+  "worker_name": "iron-tide",
+  "account_id": "REPLACE_WITH_YOUR_CLOUDFLARE_ACCOUNT_ID",
+  "database_name": "iron-tide-db",
+  "database_id": "REPLACE_WITH_THE_CREATED_D1_DATABASE_ID"
+}
