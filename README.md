@@ -105,3 +105,7 @@ Choose Solo practice, then Easy or Tactical. The computer places its fleet immed
 Multiplayer rooms offer Copy invite link, Share room (native share sheet where supported, clipboard fallback elsewhere), and a locally generated invite QR image. The QR contains only the public room link, not a seat token.
 
 Run `GAME_URL=<public-url> node tests/solo.mjs` for live computer turn and restore checks; `node tests/qr.mjs` decodes the generated invite image.
+
+## GitHub publishing
+
+Cloudflare Workers Builds is connected to this repository. Updates pushed to `main` build and deploy Iron Tide automatically. Production uses `npm run build:cloudflare`, followed by database migrations and deployment using the generated Worker configuration.

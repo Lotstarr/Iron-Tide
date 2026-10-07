@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
+  metadataBase: new URL('https://iron-tide.lotstarr.workers.dev'),
   title: 'Iron Tide — Multiplayer Battleship',
   openGraph: { title: 'Iron Tide — Rule the sea', description: 'Hidden fleets. Direct hits. Play solo, duel a friend, or join a four-player naval battle.', images: [{ url: '/iron-tide-share.png', width: 1200, height: 630, alt: 'Iron Tide — Rule the sea. Solo, duel, and team naval battles.' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'Iron Tide — Rule the sea', images: ['/iron-tide-share.png'] },
