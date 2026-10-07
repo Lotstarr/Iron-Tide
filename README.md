@@ -2,11 +2,11 @@
 
 A complete two- or four-player Battleship game with shared online rooms, hidden fleets, server-enforced turns, mobile layouts, written rules, refresh recovery, and rematches.
 
-## Playtest link
+## Play Iron Tide
 
-https://poker-meetings-alleged-pharmaceutical.trycloudflare.com
+**[Play the live game](https://iron-tide.lotstarr.workers.dev/)**
 
-This is a **temporary public playtest link**. It needs the local game server and Cloudflare tunnel to remain running on the creator's computer. It stops working if those processes stop or the computer sleeps or disconnects. A new tunnel generates a new address. ChatGPT Sites was unavailable for this workspace, so permanent hosting has not been completed.
+Hosted on Cloudflare Workers with a shared D1 database. The game runs independently of the creator’s computer. Play solo against the computer or invite friends into a shared room.
 
 Enter a captain name, create a room, and copy the invite link to a friend on another device. Choose Quick, Classic, or a custom fleet when creating the room. All players place the same fleet with a one-square gap, including diagonals, and lock in. A hit earns another shot, including a sinking shot; a miss passes the turn. A sunk boat is announced and revealed; the one-square water border around it is automatically cleared and cannot be shot. Cleared squares do not count as fired shots. Sink the whole enemy fleet to win. Use Horizontal/Vertical controls or press R to rotate a placed boat. Select How to play in the game for the full rules.
 
